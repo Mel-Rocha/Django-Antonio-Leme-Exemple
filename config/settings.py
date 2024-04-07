@@ -28,7 +28,7 @@ DJANGO_APPS = [
 ]
 
 THIRD_APPS = [
-
+    "taggit",
 ]
 
 LOCAL_APPS = [
