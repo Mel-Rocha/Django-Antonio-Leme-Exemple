@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
@@ -13,12 +12,3 @@ urlpatterns = [
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
                           document_root=settings.MEDIA_ROOT)
-=======
-from django.contrib import admin
-from django.urls import path, include
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('account/', include('account.urls')),
-]
->>>>>>> 9426dad55fbab432a65ca7d28c720e331b055820
