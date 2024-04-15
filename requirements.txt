@@ -1,8 +1,24 @@
 asgiref==3.8.1
+certifi==2024.2.2
+cffi==1.16.0
+charset-normalizer==3.3.2
+cryptography==42.0.5
+defusedxml==0.8.0rc2
 Django==5.0.4
-<<<<<<< HEAD
+django-extensions==3.2.3
+idna==3.6
+MarkupSafe==2.1.5
+oauthlib==3.2.2
 pillow==10.3.0
-=======
->>>>>>> 9426dad55fbab432a65ca7d28c720e331b055820
+pycparser==2.22
+PyJWT==2.8.0
+pyOpenSSL==24.1.0
+python3-openid==3.2.0
+requests==2.31.0
+requests-oauthlib==2.0.0
+social-auth-app-django @ git+https://github.com/python-social-auth/social-app-django.git@20fabcd7bd9a8a41910bc5c8ed1bd6ef2263b328
+social-auth-core==4.5.3
 sqlparse==0.4.4
 tzdata==2024.1
+urllib3==2.2.1
+Werkzeug==3.0.2
