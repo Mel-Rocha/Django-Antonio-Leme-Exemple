@@ -32,6 +32,7 @@ THIRD_APPS = [
 
 LOCAL_APPS = [
     "account.apps.AccountConfig",
+    "images.apps.ImagesConfig",
 ]
 
 INSTALLED_APPS = LOCAL_APPS + DJANGO_APPS + THIRD_APPS
