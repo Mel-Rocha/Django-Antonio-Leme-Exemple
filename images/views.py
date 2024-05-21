@@ -46,7 +46,7 @@ def image_like(request):
     if image_id and action:
         try:
             image = Image.objects.get(id=image_id)
-            if action == 'like'
+            if action == 'like':
                 image.users_like.add(request.user)
             else:
                 image.users_like.remove(request.user)
@@ -64,7 +64,7 @@ def image_list(request):
     images_only = request.GET.get('images_only')
     try:
         images = paginator.page(page)
-    except PageNotAnInteger
+    except PageNotAnInteger:
         images = paginator.page(1)
     except EmptyPage:
         if images_only:
