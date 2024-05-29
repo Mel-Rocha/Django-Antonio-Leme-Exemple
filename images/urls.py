@@ -13,4 +13,5 @@ urlpatterns = [
     path('', views.image_list, name='list'),
     path("users/", views.user_list, name='user_list'),
     path("users/<username>/", views.user_detail, name='user_detail'),
+    path('ranking/', views.image_ranking, name='ranking'),
 ]
