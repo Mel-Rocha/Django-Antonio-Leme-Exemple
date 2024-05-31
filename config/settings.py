@@ -32,7 +32,8 @@ THIRD_APPS = [
 ]
 
 LOCAL_APPS = [
-    "shop"
+    "shop",
+    "cart",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_APPS + LOCAL_APPS
@@ -122,3 +123,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL =  'media/'
 MEDIA_ROOT = BASE_DIR /  ' media '
+
+CART_SESSION_ID = 'cart'
